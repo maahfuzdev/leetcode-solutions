@@ -1,0 +1,34 @@
+name: Auto Update README
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Count LeetCode Problems
+        run: |
+          EASY=$(find "Easy Problem" -name "*.py" | wc -l)
+          MEDIUM=$(find "Medium Problem" -name "*.py" 2>/dev/null | wc -l)
+          HARD=$(find "Hard Problem" -name "*.py" 2>/dev/null | wc -l)
+
+          TOTAL=$((EASY + MEDIUM + HARD))
+
+          sed -i "s/Total Problems Solved:.*/Total Problems Solved: $TOTAL/" README.md
+          sed -i "s/Easy:.*/Easy: $EASY/" README.md
+          sed -i "s/Medium:.*/Medium: $MEDIUM/" README.md
+          sed -i "s/Hard:.*/Hard: $HARD/" README.md
+
+      - name: Commit Updated README
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add README.md
+          git commit -m "Auto update README progress" || echo "No changes"
+          git push
