@@ -16,8 +16,8 @@ This repo collects solved LeetCode problems with clean Python implementations. E
   - `string/` — string problems
 
 ## 📊 Progress
-- Total Problems Solved: 13
-- Easy: 13
+- Total Problems Solved: 14
+- Easy: 14
 - Medium: 0
 - Hard: 0
 
