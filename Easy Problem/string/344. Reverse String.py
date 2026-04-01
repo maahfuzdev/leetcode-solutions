@@ -1,6 +1,12 @@
-def reverseString( s):
-        new_List=[]
-        for i in range(len(s)-1,-1,-1):
-            new_List.append(s[i])
-        return new_List
-print(reverseString(["h","e","l","l","o"]))      
+class Solution(object):
+    def reverseString(self, s):
+        """
+        :type s: List[str]
+        :rtype: None Do not return anything, modify s in-place instead.
+        """
+        left, right = 0, len(s) - 1  # দুইটি pointer
+        while left < right:
+            # swap the elements
+            s[left], s[right] = s[right], s[left]
+            left += 1
+            right -= 1
