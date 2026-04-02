@@ -1,0 +1,48 @@
+name: 🤖 Auto-Update README
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "Easy Problem/**/*.py"
+      - "Medium Problem/**/*.py"
+      - "Hard Problem/**/*.py"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    name: Scan solutions & update README
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: ⬇️ Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 🔍 Run update script
+        run: python update_readme.py
+
+      - name: 📤 Commit & push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "🤖 chore: auto-update README [skip ci]"
+          commit_author: "github-actions[bot] <github-actions[bot]@users.noreply.github.com>"
+          file_pattern: README.md
+```
+
+---
+
+**এরপর README.md তে** progress/table section টা replace করো এই দিয়ে:
+```
+<!-- AUTO-UPDATE:START -->
+<!-- AUTO-UPDATE:END -->
