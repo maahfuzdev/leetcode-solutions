@@ -4,13 +4,16 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&pause=1000&color=00FF41&background=00000000&center=true&vCenter=true&width=650&lines=+%3E+Initializing+LeetCode+grind...+%F0%9F%A7%A0;+%3E+Language%3A+Python+%7C+Mode%3A+Optimal;+%3E+Status%3A+Solving+one+problem+at+a+time...;+%3E+Target%3A+100+problems+%5BLOC%3A+22%25%5D" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&pause=1000&color=00FF41&background=00000000&center=true&vCenter=true&width=700&lines=+%3E+Initializing+LeetCode+grind...+%F0%9F%A7%A0;+%3E+Language%3A+Python+%7C+Mode%3A+Optimal;+%3E+Status%3A+52+problems+crushed+%E2%9C%85;+%3E+Streak%3A+11+days+%7C+Target%3A+100+Easy+%F0%9F%94%A5" alt="Typing SVG" />
 
 <br/><br/>
 
 ![Python](https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=00FF41)
 ![LeetCode](https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=leetcode&logoColor=FFA116)
-![Problems](https://img.shields.io/badge/Solved-22%20Problems-000000?style=for-the-badge&logo=checkmarx&logoColor=00FF41)
+![Solved](https://img.shields.io/badge/Solved-52%20Problems-000000?style=for-the-badge&logo=checkmarx&logoColor=00FF41)
+![Easy](https://img.shields.io/badge/Easy-49-000000?style=for-the-badge&logoColor=00FF41&color=000000&labelColor=000000)
+![Medium](https://img.shields.io/badge/Medium-2-000000?style=for-the-badge&logoColor=FFA116&color=000000&labelColor=000000)
+![Hard](https://img.shields.io/badge/Hard-1-000000?style=for-the-badge&logoColor=FF375F&color=000000&labelColor=000000)
 ![Stars](https://img.shields.io/github/stars/maahfuzdev/LeetCode-Solutions?style=for-the-badge&logo=github&logoColor=00FF41&color=000000&labelColor=000000)
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=maahfuzdev.LeetCode-Solutions&left_color=000000&right_color=008f11&left_text=visitors)
 
@@ -35,11 +38,16 @@
 
 ```python
 developer = {
-    "name"    : "maahfuzdev",
-    "language": "Python 3",
-    "mission" : "Crack DSA. Land the dream job.",
-    "status"  : "Grinding LeetCode daily 💻",
-    "goal"    : "Solve 100 Easy → conquer Medium → dominate Hard"
+    "name"       : "Md. Mahfuzur Rahman",
+    "handle"     : "Coder_Mahfuz  |  maahfuzdev",
+    "university" : "CSE, CUET (Chittagong University of Engineering & Technology)",
+    "country"    : "Bangladesh 🇧🇩",
+    "language"   : "Python 3",
+    "mission"    : "Crack DSA. Land the dream job.",
+    "status"     : "Grinding LeetCode daily 💻",
+    "interests"  : ["Full Stack", "Android", "Frontend", "Backend"],
+    "goal"       : "100 Easy → conquer Medium → dominate Hard",
+    "portfolio"  : "https://maahfuzdev.github.io/my-portfolio/"
 }
 ```
 
@@ -71,6 +79,34 @@ developer = {
 
 ---
 
+## `$ cat profile_snapshot.json`
+
+```json
+{
+  "leetcode_handle"  : "Coder_Mahfuz",
+  "global_rank"      : "#2,519,350",
+  "total_solved"     : 52,
+  "acceptance_rate"  : "58.82%",
+  "breakdown": {
+    "easy"   : { "solved": 49,  "total": 936  },
+    "medium" : { "solved": 2,   "total": 2039 },
+    "hard"   : { "solved": 1,   "total": 922  }
+  },
+  "activity": {
+    "total_submissions"  : 102,
+    "active_days"        : 14,
+    "max_streak"         : 11
+  },
+  "top_skills": {
+    "advanced"     : ["Trie"],
+    "intermediate" : ["Hash Table", "Math", "Greedy"],
+    "fundamental"  : ["String", "Array", "Two Pointers"]
+  }
+}
+```
+
+---
+
 <!-- AUTO-UPDATE:START -->
 <!-- AUTO-UPDATE:END -->
 
@@ -81,21 +117,43 @@ developer = {
 ```
 📦 LeetCode-Solutions/
 │
-├── 📂 Easy Problem/
-│   ├── 📂 Array/           ← 3 solved
-│   ├── 📂 Binary Search/   ← 2 solved
-│   ├── 📂 Linked List/     ← 1 solved
-│   ├── 📂 Math/            ← 1 solved
-│   ├── 📂 Stack/           ← 1 solved
-│   └── 📂 String/          ← 12 solved
+├── 📂 Easy Problem/              ← 49 solved
+│   ├── 📂 String/                ← 40 solved ⭐ strongest area
+│   ├── 📂 Array/                 ← 3 solved
+│   ├── 📂 Binary Search/         ← 2 solved
+│   ├── 📂 Linked List/           ← 1 solved
+│   ├── 📂 Math/                  ← 1 solved
+│   └── 📂 Stack/                 ← 1 solved
 │
-├── 📂 Medium Problem/
-│   └── 📂 Linked List/     ← 1 solved
+├── 📂 Medium Problem/            ← 2 solved
+│   └── 📂 Linked List/           ← 2 solved
 │
-├── 📂 Hard Problem/
-│   └── 📂 Linked List/     ← 1 solved
+├── 📂 Hard Problem/              ← 1 solved
+│   └── 📂 Linked List/           ← 1 solved
 │
 └── 📄 README.md
+```
+
+---
+
+## `$ cat dsa_skills.md`
+
+```
+╔══════════════════════════════════════════════════════╗
+║              SKILL PROFICIENCY MATRIX                ║
+╠══════════════╦══════════════════════╦════════════════╣
+║ LEVEL        ║ TOPIC                ║ PROBLEMS       ║
+╠══════════════╬══════════════════════╬════════════════╣
+║ 🔴 Advanced  ║ Trie                 ║ × 1            ║
+╠══════════════╬══════════════════════╬════════════════╣
+║ 🟡 Intermed. ║ Hash Table           ║ × 9            ║
+║              ║ Math                 ║ × 6            ║
+║              ║ Greedy               ║ × 4            ║
+╠══════════════╬══════════════════════╬════════════════╣
+║ 🟢 Fundament.║ String               ║ × 40           ║
+║              ║ Array                ║ × 14           ║
+║              ║ Two Pointers         ║ × 11           ║
+╚══════════════╩══════════════════════╩════════════════╝
 ```
 
 ---
@@ -123,16 +181,18 @@ class Solution:
             seen[num] = i
 ```
 
+> Every solution in this repo follows the above format — clean header, clear approach, and annotated complexity.
+
 ---
 
 ## `$ git clone && run`
 
 ```bash
-# Clone the matrix
+# Clone the repo
 git clone https://github.com/maahfuzdev/LeetCode-Solutions.git
 cd LeetCode-Solutions
 
-# Execute any solution
+# Run any solution directly
 python "Easy Problem/Array/1. Two Sum.py"
 ```
 
@@ -143,14 +203,26 @@ python "Easy Problem/Array/1. Two Sum.py"
 ## `$ cat roadmap.md`
 
 ```
+PHASE 1 — Easy Foundation
+──────────────────────────────────────────────────────
 [✓] Repository initialized
-[✓] 15 problems solved
 [✓] 22 problems solved
-[ ] 50 Easy problems
-[ ] 100 Easy problems  ← main target
-[ ] Medium grind begins (Sliding Window, DP, Trees)
-[ ] Unit tests added
+[✓] 49 Easy problems solved        ← milestone achieved 🎉
+[✓] 52 total problems solved
+[ ] 100 Easy problems              ← current main target 🎯
+
+PHASE 2 — Medium Grind (unlocks after 100 Easy)
+──────────────────────────────────────────────────────
+[ ] Sliding Window
+[ ] Dynamic Programming
+[ ] Trees & Graphs
+[ ] Binary Search (advanced)
+
+PHASE 3 — Polish & Ship
+──────────────────────────────────────────────────────
+[ ] Unit tests added for all solutions
 [ ] Complexity visualizations added
+[ ] Interview prep notes per topic
 ```
 
 ---
@@ -162,10 +234,17 @@ python "Easy Problem/Array/1. Two Sum.py"
 
 $ git fork maahfuzdev/LeetCode-Solutions
 $ git checkout -b add/problem-name
-$ # Follow the style guide above
-$ git push && open pull-request
 
-# Note: Open an issue first to align on style.
+# Follow the style guide — include:
+#   Problem number, title, difficulty
+#   Approach explanation
+#   Time & Space complexity
+#   Clean, readable Python code
+
+$ git push origin add/problem-name
+$ open pull-request
+
+# Note: Open an issue first to align on approach and style.
 ```
 
 ---
@@ -173,10 +252,18 @@ $ git push && open pull-request
 <div align="center">
 
 ```
-> Session by maahfuzdev
+> Session by maahfuzdev  |  Coder_Mahfuz on LeetCode
+> 52 problems down. Many more to go.
 > If this helped you, drop a ⭐ — fuel for the grind.
 > [exit 0]
 ```
+
+<br/>
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=firefox&logoColor=00FF41)](https://maahfuzdev.github.io/my-portfolio/)
+[![LeetCode](https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=leetcode&logoColor=FFA116)](https://leetcode.com/Coder_Mahfuz/)
+[![GitHub](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=00FF41)](https://github.com/maahfuzdev)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=0A66C2)](https://linkedin.com/in/md-mahfuzur-rahman-cse)
 
 <br/>
 
