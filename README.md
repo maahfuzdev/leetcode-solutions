@@ -4,18 +4,18 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&pause=1200&color=00FF41&background=00000000&center=true&vCenter=true&width=680&lines=%3E+57+problems+crushed+%E2%9C%85+%7C+streak+11+days+%F0%9F%94%A5;%3E+Easy+52+%7C+Medium+2+%7C+Hard+3;%3E+Skills%3A+String+%C3%9743+%7C+Hash+Table+%C3%9710+%7C+Array+%C3%9718;%3E+Acceptance+60.55%25+%7C+Beats+77.53%25+on+Easy;%3E+Target%3A+100+Easy+%E2%86%92+Medium+grind+begins" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&pause=1200&color=00FF41&background=00000000&center=true&vCenter=true&width=680&lines=%3E+66+problems+crushed+%E2%9C%85+%7C+streak+11+days+%F0%9F%94%A5;%3E+Easy+55+%7C+Medium+7+%7C+Hard+4;%3E+Skills%3A+String+%C3%9744+%7C+Hash+Table+%C3%9713+%7C+Array+%C3%9721;%3E+Acceptance+59.4%25+%7C+Beats+78.82%25+on+Easy;%3E+Target%3A+100+Easy+%E2%86%92+Medium+grind+begins" alt="Typing SVG" />
 
 <br/><br/>
 
 ![Python](https://img.shields.io/badge/Python_3-0d0d0d?style=flat-square&logo=python&logoColor=00FF41)
 ![LeetCode](https://img.shields.io/badge/LeetCode-0d0d0d?style=flat-square&logo=leetcode&logoColor=FFA116)
-![Solved](https://img.shields.io/badge/Solved-57-0d0d0d?style=flat-square&logoColor=00FF41)
-![Easy](https://img.shields.io/badge/Easy-52-00b300?style=flat-square)
-![Medium](https://img.shields.io/badge/Medium-2-e6a817?style=flat-square)
-![Hard](https://img.shields.io/badge/Hard-3-c0392b?style=flat-square)
-![Acceptance](https://img.shields.io/badge/Acceptance-60.55%25-0d0d0d?style=flat-square)
-![Rank](https://img.shields.io/badge/Rank-%232%2C302%2C358-0d0d0d?style=flat-square&logoColor=FFA116)
+![Solved](https://img.shields.io/badge/Solved-66-0d0d0d?style=flat-square&logoColor=00FF41)
+![Easy](https://img.shields.io/badge/Easy-55-00b300?style=flat-square)
+![Medium](https://img.shields.io/badge/Medium-7-e6a817?style=flat-square)
+![Hard](https://img.shields.io/badge/Hard-4-c0392b?style=flat-square)
+![Acceptance](https://img.shields.io/badge/Acceptance-59.4%25-0d0d0d?style=flat-square)
+![Rank](https://img.shields.io/badge/Rank-%232%2C131%2C753-0d0d0d?style=flat-square&logoColor=FFA116)
 ![Stars](https://img.shields.io/github/stars/maahfuzdev/LeetCode-Solutions?style=flat-square&logo=github&logoColor=00FF41&color=0d0d0d&labelColor=0d0d0d)
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=maahfuzdev.LeetCode-Solutions&left_color=0d0d0d&right_color=008f11&left_text=visitors)
 
@@ -72,27 +72,28 @@ developer = {
 ```json
 {
   "handle"          : "Coder_Mahfuz",
-  "global_rank"     : "#2,302,358",
-  "total_solved"    : 57,
-  "acceptance_rate" : "60.55%",
+  "global_rank"     : "#2,131,753",
+  "total_solved"    : 66,
+  "acceptance_rate" : "59.4%",
   "breakdown" : {
-    "easy"   : { "solved": 52, "total": 937,  "beats": "77.53%" },
-    "medium" : { "solved":  2, "total": 2042, "beats": "0%"     },
-    "hard"   : { "solved":  3, "total": 923,  "beats": "32.51%" }
+    "easy"   : { "solved": 55, "total": 938,  "beats": "78.82%" },
+    "medium" : { "solved":  7, "total": 2044, "beats": "30.57%" },
+    "hard"   : { "solved":  4, "total": 924,  "beats": "40.34%" }
   },
   "activity" : {
-    "total_submissions" : 109,
-    "total_active_days" : 18,
+    "total_submissions" : 133,
+    "total_active_days" : 22,
     "max_streak"        : 11
   },
   "languages" : {
-    "Python"  : 56,
+    "Python"  : 63,
+    "C++"     : 2,
     "Python3" : 1
   },
   "skills" : {
     "advanced"      : ["Dynamic Programming ×2", "Trie ×1"],
-    "intermediate"  : ["Hash Table ×10", "Math ×6", "Greedy ×4"],
-    "fundamental"   : ["String ×43", "Array ×18", "Two Pointers ×11"]
+    "intermediate"  : ["Hash Table ×13", "Math ×8", "Greedy ×4", "Binary Search ×4", "Recursion ×3"],
+    "fundamental"   : ["String ×44", "Array ×21", "Two Pointers ×12", "Simulation ×4", "Stack ×4", "Linked List ×3", "Sorting ×1", "Queue ×1"]
   }
 }
 ```
@@ -117,16 +118,18 @@ Rank
       │                ╲___
  3.0M ┤                     ╲
       │                       ╲___
- 2.5M ┤                            ╲___● #2,302,358
-      └──┬───┬───┬───┬───┬───┬───┬───┬
-        D1  D3  D5  D7  D9 D11 D13 D15 D18
+ 2.5M ┤                            ╲___
+      │                                 ╲___● #2,131,753
+ 2.0M ┤
+      └──┬───┬───┬───┬───┬───┬───┬───┬───┬
+        D1  D3  D5  D7  D9 D11 D13 D15 D18 D22
                     Active Days
 ```
 
 ```
-Problems  0──4──8──12─18─22─28─33─38─42─46─52─57
-Solved    ●──●──●──●──●──●──●──●──●──●──●──●──●
-                                              ↑ now
+Problems  0──4──8──12─18─22─28─33─38─42─46─52─57─62─66
+Solved    ●──●──●──●──●──●──●──●──●──●──●──●──●──●──●
+                                                    ↑ now
 ```
 
 | Milestone | Active Days | Problems Solved | Rank (est.) |
@@ -135,7 +138,8 @@ Solved    ●──●──●──●──●──●──●──●─�
 | 🟡 10 solved | Day 4 | 10 | ~4,200,000 |
 | 🟡 25 solved | Day 8 | 25 | ~3,300,000 |
 | 🟠 50 solved | Day 15 | 50 | ~2,500,000 |
-| 🔴 Now     | Day 18 | **57** | **#2,302,358** |
+| 🟠 57 solved | Day 18 | 57 | ~2,302,358 |
+| 🔴 Now     | Day 22 | **66** | **#2,131,753** |
 | 🎯 Target  | —      | 100 | ~1,500,000 *(est.)* |
 
 ---
@@ -146,12 +150,17 @@ Solved    ●──●──●──●──●──●──●──●─�
 |-------|-------|:---:|:---|
 | 🔵 Advanced | Dynamic Programming | ×2 | `█░░░░░░░░░` |
 | 🔵 Advanced | Trie | ×1 | `░░░░░░░░░░` |
-| 🟡 Intermediate | Hash Table | ×10 | `████░░░░░░` |
-| 🟡 Intermediate | Math | ×6 | `███░░░░░░░` |
+| 🟡 Intermediate | Hash Table | ×13 | `█████░░░░░` |
+| 🟡 Intermediate | Math | ×8 | `████░░░░░░` |
 | 🟡 Intermediate | Greedy | ×4 | `██░░░░░░░░` |
-| 🟢 Fundamental | String | ×43 | `██████████` |
-| 🟢 Fundamental | Array | ×18 | `█████░░░░░` |
-| 🟢 Fundamental | Two Pointers | ×11 | `███░░░░░░░` |
+| 🟡 Intermediate | Binary Search | ×4 | `██░░░░░░░░` |
+| 🟡 Intermediate | Recursion | ×3 | `█░░░░░░░░░` |
+| 🟢 Fundamental | String | ×44 | `██████████` |
+| 🟢 Fundamental | Array | ×21 | `██████░░░░` |
+| 🟢 Fundamental | Two Pointers | ×12 | `████░░░░░░` |
+| 🟢 Fundamental | Simulation | ×4 | `██░░░░░░░░` |
+| 🟢 Fundamental | Stack | ×4 | `██░░░░░░░░` |
+| 🟢 Fundamental | Linked List | ×3 | `█░░░░░░░░░` |
 
 ---
 
@@ -160,19 +169,19 @@ Solved    ●──●──●──●──●──●──●──●─�
 ```
 📦 LeetCode-Solutions/
 │
-├── 📂 Easy/                       ← 52 solved
-│   ├── 📂 String/                 ← ×43  ⭐ dominant area
-│   ├── 📂 Array/                  ← ×5
+├── 📂 Easy/                       ← 55 solved
+│   ├── 📂 String/                 ← ×44  ⭐ dominant area
+│   ├── 📂 Array/                  ← ×6
 │   ├── 📂 Binary Search/          ← ×2
 │   ├── 📂 Linked List/            ← ×1
 │   ├── 📂 Math/                   ← ×1
-│   └── 📂 Stack/                  ← ×1 (approx. dist.)
+│   └── 📂 Stack/                  ← ×1
 │
-├── 📂 Medium/                     ← 2 solved
-│   └── 📂 Mixed/                  ← ×2
+├── 📂 Medium/                     ← 7 solved
+│   └── 📂 Mixed/                  ← ×7
 │
-├── 📂 Hard/                       ← 3 solved
-│   └── 📂 Mixed/                  ← ×3
+├── 📂 Hard/                       ← 4 solved
+│   └── 📂 Mixed/                  ← ×4
 │
 └── 📄 README.md
 ```
@@ -214,13 +223,14 @@ PHASE 1 — Easy Foundation
 [✓] 22 problems solved
 [✓] 49 Easy problems solved
 [✓] 52 total problems solved
-[✓] 57 total problems solved         🎉 now
+[✓] 57 total problems solved
+[✓] 66 total problems solved         🎉 now
 [ ] 100 Easy problems                ← active target 🎯
 
 PHASE 2 — Medium Grind
 ──────────────────────────────────────────────
-[ ] Sliding Window
-[ ] Binary Search (advanced)
+[~] Sliding Window                   ← in progress
+[~] Binary Search (advanced)         ← 4 done!
 [ ] Dynamic Programming              ← 2 done already!
 [ ] Trees & Graphs
 
@@ -277,8 +287,8 @@ git push origin add/problem-name
 ```
 ╔─────────────────────────────────────────────────╗
 │  > session by maahfuzdev  ·  Coder_Mahfuz       │
-│  > rank #2,302,358 — dropping fast.             │
-│  > 57 down. the grind continues.               │
+│  > rank #2,131,753 — dropping fast.             │
+│  > 66 down. the grind continues.               │
 │  > ⭐ if this helped you — it fuels the streak  │
 │  > [exit 0]                                     │
 ╚─────────────────────────────────────────────────╝
