@@ -1,0 +1,11 @@
+class Solution:
+    def numberOfLines(self, widths, s):
+        lines, width = 1, 0
+        for c in s:
+            w = widths[ord(c)-97]
+            if width + w > 100:
+                lines += 1
+                width = w
+            else:
+                width += w
+        return [lines, width]

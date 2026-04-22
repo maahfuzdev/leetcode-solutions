@@ -1,4 +1,5 @@
-def reverseStr(s, k):
+class Solution(object):
+    def reverseStr(self, s, k):
         l=[]
         h=[]
         i=0
@@ -10,5 +11,4 @@ def reverseStr(s, k):
                 h.append(l[j][::-1])
             else:
                 h.append(l[j])
-        return ''.join(h)   
-print(reverseStr("abcdefg",2))            
+        return ''.join(h)
